@@ -12,10 +12,11 @@ article {
     align-items: center;
 }
 
+/*CV Head*/
 header {
     display: flex;
     flex-direction: row;
-    margin-top: 20px;
+    margin: 40px 0;
     box-shadow: 0px 0px 10px gray;
     border-radius: 10px;
     width: 900px;
@@ -31,6 +32,7 @@ header > div {
 header > div > h2 {
     font-style: italic;
     color: darkcyan;
+    margin-bottom: 50px;
 }
 
 span {
@@ -45,7 +47,18 @@ img {
 }
 
 /*CV Body*/
+body {
+    font-size: 1.3rem;
+    margin: 0 400px;
+    margin-bottom: 50px;
+}
+
 li > h2 {
     margin: 20px 0;
     color:darkcyan;
+}
+
+ol > li {
+    border-bottom: 1px gray solid;
+    padding-bottom: 20px;
 }
