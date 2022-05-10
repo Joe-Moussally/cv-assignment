@@ -90,9 +90,9 @@ ol > li:not(:hover) {
 
 /*Footer*/
 footer {
-    margin-top: 60px;
-    border: 2px red solid;
-    padding: 0 100px;
+    background-color:powderblue;
+    margin-top: 80px;
+    padding: 40px 100px;
 }
 footer > div > button { /*icons*/
     border: none;
@@ -105,8 +105,42 @@ footer > div > :nth-child(2){
 
 a > img {
     width: 70px;
+    animation: float 3s infinite ease-in-out;
+}
+
+a {
+    border-bottom: 2px black;
 }
 
 footer > div { /*icons container*/
+    transform: translateY(20px);
     display: flex;
+}
+
+/*floating animation*/
+@keyframes float {
+    0% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-30px);
+    }
+    100% {
+        transform: translateY(0);
+    }
+}
+
+/*applying animation delay for visual effects*/
+footer > div > :nth-child(1) > a > img {
+    animation-delay: 0;
+}
+footer > div > :nth-child(2) > a > img{
+    animation-delay: 0.4s;
+}
+footer > div > :nth-child(3) > a > img {
+    animation-delay: 0.8s;
+}
+
+button:hover {
+    cursor: pointer;
 }
