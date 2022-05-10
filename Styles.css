@@ -52,7 +52,7 @@ span {
     color:slategray
 }
 
-img {
+#picture {
     width: 200px;
     margin: 20px;
     border: 2px black solid;
@@ -72,6 +72,7 @@ li > h2 {
 }
 
 ol > li {
+    max-width: 700px;
     border-bottom: 1px gray solid;
     padding-bottom: 20px;
 }
@@ -85,4 +86,27 @@ ol > li:hover {
 ol > li:not(:hover) {
     transition: ease 0.2s;
     transform: scale(1);
+}
+
+/*Footer*/
+footer {
+    margin-top: 60px;
+    border: 2px red solid;
+    padding: 0 100px;
+}
+footer > div > button { /*icons*/
+    border: none;
+    background: none;
+}
+
+footer > div > :nth-child(2){
+    margin: 0 100px;
+}
+
+a > img {
+    width: 70px;
+}
+
+footer > div { /*icons container*/
+    display: flex;
 }
