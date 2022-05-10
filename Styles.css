@@ -19,9 +19,22 @@ header {
     margin: 40px 0;
     box-shadow: 0px 0px 10px gray;
     border-radius: 10px;
-    width: 900px;
+    width: 70%;
+    min-width: 600px;
+    max-width: 900px;
     justify-content: space-around;
     align-items: center;
+}
+
+/*Scale Header on mouse over*/
+header:hover {
+    transition: ease 0.2s;
+    transform: scale(1.1);
+}
+
+header:not(:hover) {
+    transition: ease 0.2s;
+    transform: scale(1);
 }
 
 header > div {
@@ -49,7 +62,7 @@ img {
 /*CV Body*/
 body {
     font-size: 1.3rem;
-    margin: 0 400px;
+    margin: 0 100px;
     margin-bottom: 50px;
 }
 
@@ -61,4 +74,15 @@ li > h2 {
 ol > li {
     border-bottom: 1px gray solid;
     padding-bottom: 20px;
+}
+
+/*scale sections on hover for clear view*/
+ol > li:hover {
+    transition: ease 0.2s;
+    transform: scale(1.2);
+}
+
+ol > li:not(:hover) {
+    transition: ease 0.2s;
+    transform: scale(1);
 }
