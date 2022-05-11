@@ -20,10 +20,11 @@ header {
     box-shadow: 0px 0px 10px gray;
     border-radius: 10px;
     width: 70%;
-    min-width: 600px;
+    min-width: 350px;
     max-width: 900px;
     justify-content: space-around;
     align-items: center;
+    flex-wrap: wrap;
 }
 
 /*Scale Header on mouse over*/
