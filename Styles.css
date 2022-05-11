@@ -88,6 +88,10 @@ ol > li:not(:hover) {
     transform: scale(1);
 }
 
+table {
+    transform: scale(1.2) translateX(90px);
+}
+
 /*Footer*/
 footer {
     background-color:powderblue;
