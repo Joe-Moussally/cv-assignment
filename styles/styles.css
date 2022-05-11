@@ -97,10 +97,6 @@ td > strong {
     margin-right: 100px;
 }
 
-#tablehead > :nth-child(3) {
-    margin-right: 0;
-}
-
 /*Footer*/
 footer {
     background-color:powderblue;
