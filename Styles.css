@@ -93,10 +93,6 @@ table {
     transform: scale(1.2)
 }
 
-ol > :nth-child(3) {
-    justify-content: center;
-}
-
 /*Footer*/
 footer {
     background-color:powderblue;
