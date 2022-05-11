@@ -90,7 +90,15 @@ ol > li:not(:hover) {
 }
 
 table {
-    transform: scale(1.2)
+    transform: scale(1.2);
+}
+
+td > strong {
+    margin-right: 100px;
+}
+
+#tablehead > :nth-child(3) {
+    margin-right: 0;
 }
 
 /*Footer*/
